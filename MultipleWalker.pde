@@ -2,7 +2,7 @@ Walker w1;
 
 void setup(){
   size(600,600);
-  w1 = new Walker();
+  w1 = new Walker(mouseX,mouseY);
   background(255);
 }
 
@@ -12,5 +12,5 @@ void draw() {
 }
 
 void mouseClicked() {
-   w1 = new Walker();
+   w1 = new Walker(mouseX,mouseY);
 }

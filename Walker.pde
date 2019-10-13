@@ -1,10 +1,9 @@
 class Walker{
-  int x ;
-  int y ;
-  
-  Walker(){
-   x = mouseX;
-   y = mouseY;
+  float x ;
+  float y ;
+  Walker(float X,float Y){
+   x = X;
+   y = Y;
   }
 
   void display(){
@@ -31,5 +30,4 @@ class Walker{
       stroke(255,0,255);
     }
   }
-
 }
